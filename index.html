@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcolatore</title>
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calcolatore op</h1>
+    <div id="persone">
+      <h3>
+        Numero Di Persone
+        <input type="number" name="Numero di persone" id="personeNumber" />
+      </h3>
+    </div>
+    <div id="razioni">
+      <h3>
+        Numero Di Razioni
+        <input type="number" name="Numero di razioni" id="razioniNumber" />
+      </h3>
+    </div>
+    <div id="cibi">
+      <h3>
+        Numero Di Cibi Diversi
+        <input type="number" name="Cibi diversi" id="cibiDiversi" />
+      </h3>
+    </div>
+    <div id="bbq">
+      <h3>
+        Salsa Bismuth
+        <input type="checkbox" name="bbq salsa" id="bbqSalsa" /><span
+          id="sad"
+        ></span>
+      </h3>
+    </div>
+    <div id="send">
+      <button onclick="result()" class="bottone"><span>MANNALA </span></button>
+    </div>
+    <h3>Bonus totale</h3>
+    <h3 id="bonus"></h3>
+  </body>
+</html>

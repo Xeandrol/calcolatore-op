@@ -6,7 +6,7 @@ function result(x, y, z, j) {
   var j = 0;
   if (x < y || x == 0 || y == 0) {
     document.getElementById("bonus").innerHTML =
-      "Servono piu razioni Porcoddio";
+      "Servono piu razioni";
   } else {
     if (check == true) {
       j = 4;
